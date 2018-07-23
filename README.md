@@ -16,5 +16,10 @@ ListContactsView - save history
 
 ## Controllers
 
+## Other
+AlamoFire
+SwiftyJSON
+
+
 
 
