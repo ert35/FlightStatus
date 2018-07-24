@@ -27,8 +27,8 @@ https://www.adsbexchange.com
 
 ## Daily Goals
 ### Week 1 
-Monday: Create a github repo and begin researching on open source projects and APIs on flight tracking systems. 
-Tuesday: Finish design documentation and recieve approval on API and begin parsing JSON object. Ensure that API data is real time and accurate.
+Monday: Create a github repo and begin researching on open source projects and APIs on flight tracking systems. \n
+Tuesday: Finish design documentation and recieve approval on API and begin parsing JSON object. Ensure that API data is real time and accurate. \n
 Wednesday: Create a simple UI design, continue working on parsing JSON object through API
 Thursday: Begin adding functionality to the UI design and have a MVP for Friday's user testing session
 Friday: Continue working on api and fix last minute bugs until user testing session.
