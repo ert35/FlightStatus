@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="c7b-9w-THT" kind="relationship" relationship="rootViewController" id="sqr-96-q2h"/>
+                        <segue destination="FdU-Rc-O1L" kind="show" id="xMg-ta-4BX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JbJ-1S-PQn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,6 +57,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1CI-UU-RQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1406" y="-641"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LHt-a0-V06">
+            <objects>
+                <viewController id="FdU-Rc-O1L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cD2-mQ-f0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHW-U9-s7n">
+                                <rect key="frame" x="127" y="138" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sN0-Jc-sBc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GZp-t6-sSl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-322.39999999999998" y="-130.88455772113943"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xM0-zV-IhM">
