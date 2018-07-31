@@ -1,4 +1,5 @@
 # FlightStatus
+This is flight notification system where users can choose specific people in their contacts to be notified about the user's flight. 
 
 ## Audience
 People who fly and would like to keep specific people informed of their flight information.
@@ -9,12 +10,15 @@ A user opens the app is asked to login / sign up. Once they log in, they are del
 ## Technical
 Models \
 Flight.swift \
-Contacts.swift \
+Contacts.swift 
 
 ## Views
-ListContactsView - list of contacts they would like to notify \
+ListContactsView - list of contacts they would like to notify 
 
 ## Controllers
+LoginController.swift
+AirlineFlightInputController.swift
+AirlineConfirmController.swift
 
 ## Other
 AlamoFire \
@@ -32,20 +36,20 @@ Tuesday: Finish design documentation and recieve approval on API and begin parsi
 Wednesday: Create a simple UI design, continue working on parsing JSON object through API \
 Thursday: Begin adding functionality to the UI design and have a MVP for Friday's user testing session \
 Friday: Continue working on api and fix last minute bugs until user testing session. \
-Goal: User signs up/ logs in and searches for a flight with an airline and flight number. Then prompted to confirm that the data is correct. \
+Goal: User signs up/ logs in and searches for a flight with an airline and flight number. Then prompted to confirm that the data is correct. 
 
 ### Week 2
 Monday: Understand the servers behind the app and ensure the real time activity. Add the add contacts storyboard and begin adding functionality. \
 Tuesday: Continue adding the functionality of saving a contact. \
 Wednesday: Begin incorporating the sms texting feature. \
-Thursday: Continue working on the sms texting feature. \
+Thursday: Continue working on the sms texting feature. 
 
 ### Week 3
 Monday: Polish the UI design \
 Tuesday: Check for test cases and continue polishing the UI design \
 Wednesday: User testing - continue fixing bugs and UI design \
 Thursday: Polish \
-Friday: Polish\
+Friday: Polish
 
 Extra time: \
-- History page\
+- History page

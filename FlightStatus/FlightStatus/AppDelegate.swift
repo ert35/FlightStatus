@@ -21,15 +21,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // 1
-        let storyboard = UIStoryboard(name: "Login", bundle: .main)
+//        let storyboard = UIStoryboard(name: "Login", bundle: .main)
+//
+//        // 2
+//        if let initialViewController = storyboard.instantiateInitialViewController() {
+//            // 3
+//            window?.rootViewController = initialViewController
+//            // 4
+//            window?.makeKeyAndVisible()
+//        }
         
-        // 2
-        if let initialViewController = storyboard.instantiateInitialViewController() {
-            // 3
-            window?.rootViewController = initialViewController
-            // 4
-            window?.makeKeyAndVisible()
-        }
+        let initialViewController = UIStoryboard.initialViewController(for: .login)
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
 
         
         
