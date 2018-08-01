@@ -71,7 +71,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w88-ba-ixS">
-                                <rect key="frame" x="110" y="303" width="134" height="30"/>
+                                <rect key="frame" x="110" y="303" width="134" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
@@ -88,16 +88,17 @@
                         <outlet property="endAirportTextField" destination="DWS-ai-VBi" id="7eq-Gz-O11"/>
                         <outlet property="flightIdTextField" destination="WtZ-BZ-bTX" id="H79-R7-RcZ"/>
                         <outlet property="startAirportTextField" destination="n9Y-Eq-fFF" id="w13-Pa-I5A"/>
+                        <segue destination="Mjl-rQ-Gpm" kind="show" identifier="" id="tiF-yN-wVm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygl-1l-ldg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="229.59999999999999" y="-618.44077961019491"/>
         </scene>
-        <!--View Controller-->
+        <!--Submitted View Controller-->
         <scene sceneID="hU6-D6-Cca">
             <objects>
-                <viewController id="Mjl-rQ-Gpm" sceneMemberID="viewController">
+                <viewController id="Mjl-rQ-Gpm" customClass="SubmittedViewController" customModule="FlightStatus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lhd-PB-czS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
